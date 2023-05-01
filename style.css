@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Ysabeau", sans-serif;
+}
+
+main {
+  width: 30vw;
+  height: 55vh;
+  padding: 2.5rem;
+  border-radius: 35px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+/* .main {
+  display: none;
+} */
+
+.main .icon {
+  width: fit-content;
+  padding: 1rem;
+  background-color: hsl(213, 20%, 22%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.icon span {
+  font-size: 1rem;
+  color: hsl(25, 97%, 53%);
+}
+
+h1 {
+  margin-bottom: 0.6rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  width: 100%;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.btns span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(213, 20%, 22%);
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.btns span:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 12%, 63%);
+}
+
+.checked {
+  color: hsl(0, 0%, 100%) !important;
+  background-color: hsl(25, 97%, 53%) !important;
+}
+
+.submit {
+  width: 100%;
+  padding: 1rem;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  border-radius: 40px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.submit:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you svg {
+  margin-bottom: 2rem;
+}
+
+.thank-you .rating {
+  margin-bottom: 2rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(216, 12%, 8%);
+}
+
+.thank-you h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.thank-you p {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
